@@ -1,0 +1,21 @@
+Description,Component,Priority
+Application force closes when clicking 'Spin' on iPhone 16,Technical,High
+The 'Paytable' button is overlapping with the balance display,UI/UX,Low
+German translation for 'Free Spins' is missing in the pop-up,Localization,Medium
+Payout calculation for 5-of-a-kind is incorrect,Mechanics,High
+Audio loop stutters during the Fire Bonus transition,Audio,Medium
+Screen goes black after 10 minutes of inactivity,Technical,High
+Terms and Conditions' link leads to a 404 error page,UI/UX,Medium
+Win animation for '1000 Gems' is lagging on Android,Graphics,Low
+Betting amount does not reset after a session timeout,Mechanics,High
+Font size in the 'History' tab is too small to read,UI/UX,Low
+Localization: Spanish text for 'Jackpot' is misspelled,Localization,Low
+Background music continues to play even when muted,Audio,Low
+Game hangs when the user loses internet connection,Technical,Medium
+Transition animation from base game to bonus is flickering,Graphics,Medium
+Max Bet' button does not highlight when clicked,UI/UX,Low
+Rapidly clicking the 'Spin' button causes a memory leak,Technical,High
+Bonus feature 'Grow Reels' does not trigger at 100 points,Mechanics,High
+Help file images are not loading on low-resolution screens,UI/UX,Medium
+Sequence of wins in 'rakinbacon' doesn't match the paytable,Mechanics,High
+Logo on the loading screen is pixelated on Retina displays,Graphics,Low
