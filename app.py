@@ -5,7 +5,7 @@ from src.engine import train_system, predict_bug
 from src.database import init_db, log_bug, get_all_bugs
 
 # 1. Page Configuration
-st.set_page_config(page_title="AI Bug Tracker", layout="wide", page_icon="🐞")
+st.set_page_config(page_title="Smart Bug Tracker", layout="wide", page_icon="🐞")
 
 # 2. Initialize Database & AI Models
 init_db()
@@ -19,7 +19,7 @@ p_model, c_model = load_logic()
 # --- SIDEBAR (Control Panel) ---
 with st.sidebar:
     st.title("⚙️ Settings")
-    st.info("AI-powered triage for iGaming & Slot development.")
+    st.info("AI-powered triage for Bugs/Defects/Findings")
     
     st.divider()
     
@@ -47,7 +47,7 @@ with st.sidebar:
             st.rerun()
 
 # --- MAIN PAGE (Reporting & History) ---
-st.title("🐞 Smart Bug Triage System")
+st.title("🐞 Smart Bug Tracker")
 
 col1, col2 = st.columns([1, 1.2])
 
