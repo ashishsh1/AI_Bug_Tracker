@@ -66,14 +66,20 @@ with col1:
             # Display Results
             st.divider()
             st.subheader("AI Prediction")
-            res_a, res_b = st.columns(2)
-            with res_a:
-                st.metric("Component", component)
-            with res_b:
-                st.metric("Priority", priority)
             
-            if priority == "High":
-                st.error("Action Required: High Priority Bug detected.")
+            # Display Component
+            st.metric("Detected Component", component)
+            
+            # Conditional Color-Coding for Priority
+            st.write("**Priority Level:**")
+            if priority == "Critical":
+                st.error("🚨 CRITICAL PRIORITY: Immediate Action Required")
+            elif priority == "High":
+                st.warning("⚠️ HIGH PRIORITY: Needs Attention")
+            elif priority == "Low":
+                st.success("✅ LOW PRIORITY: Minor Issue")
+            else:
+                st.info(f"Priority: {priority}")
         else:
             st.warning("Please enter a description.")
 

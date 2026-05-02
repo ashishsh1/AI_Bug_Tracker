@@ -1,21 +1,25 @@
 Description,Component,Priority
-Application force closes when clicking 'Spin' on iPhone 16,Technical,High
-The 'Paytable' button is overlapping with the balance display,UI/UX,Low
-German translation for 'Free Spins' is missing in the pop-up,Localization,Medium
-Payout calculation for 5-of-a-kind is incorrect,Mechanics,High
-Audio loop stutters during the Fire Bonus transition,Audio,Medium
-Screen goes black after 10 minutes of inactivity,Technical,High
-Terms and Conditions' link leads to a 404 error page,UI/UX,Medium
-Win animation for '1000 Gems' is lagging on Android,Graphics,Low
-Betting amount does not reset after a session timeout,Mechanics,High
-Font size in the 'History' tab is too small to read,UI/UX,Low
-Localization: Spanish text for 'Jackpot' is misspelled,Localization,Low
-Background music continues to play even when muted,Audio,Low
-Game hangs when the user loses internet connection,Technical,Medium
-Transition animation from base game to bonus is flickering,Graphics,Medium
-Max Bet' button does not highlight when clicked,UI/UX,Low
-Rapidly clicking the 'Spin' button causes a memory leak,Technical,High
-Bonus feature 'Grow Reels' does not trigger at 100 points,Mechanics,High
-Help file images are not loading on low-resolution screens,UI/UX,Medium
-Sequence of wins in 'rakinbacon' doesn't match the paytable,Mechanics,High
-Logo on the loading screen is pixelated on Retina displays,Graphics,Low
+Application crashes immediately upon startup,Backend,Critical
+SQL injection vulnerability found in the login form,Security,Critical
+Data loss occurred after saving the user profile,Database,Critical
+Search function returns 500 internal server error,Backend,High
+Navigation bar is misaligned on mobile browsers,UI,Low
+Unable to connect to the database after 5 minutes of idle time,Database,High
+Password reset email is not being delivered to the user,Backend,High
+Button color contrast does not meet accessibility standards,UI,Low
+Unauthorized access to the admin dashboard via URL manipulation,Security,Critical
+Search results are taking more than 10 seconds to load,Database,Medium
+Footer links are overlapping on tablets,UI,Low
+User session expires without warning during form submission,Backend,Medium
+API request times out during high traffic periods,Backend,High
+Duplicate user entries appearing in the billing records,Database,Medium
+Invalid characters allowed in the username input field,Security,Medium
+Company logo is blurry on high-resolution screens,UI,Low
+System hangs when exporting reports larger than 100MB,Backend,High
+Missing primary key on the order table causing indexing errors,Database,Medium
+Help documentation images are failing to render,UI,Medium
+Login page lacks proper SSL certificate validation,Security,Critical
+Search filter for date range produces inconsistent results,Database,Medium
+Font size in the settings panel is too small for readability,UI,Low
+Failed to purge temporary files, causing disk space overflow,Backend,Medium
+User roles are not correctly updating after permission changes,Security,High
